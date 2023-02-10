@@ -26,7 +26,7 @@ const Keypad = ({ handleClick, handleClear, handleEqual }) => {
       <button className="digit-keys" onClick={() => handleClick("6")}>
         6
       </button>
-      <button className="operator-keys" onClick={() => handleClick("+")}>
+      <button className="operator-keys" onClick={() => handleClick("*")}>
         *
       </button>
       <br />
