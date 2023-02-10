@@ -1,0 +1,36 @@
+.digit-keys,
+.fun-keys,
+.operator-keys {
+  width: 87.5px;
+  height: 100px;
+  font-size: 24pt;
+  border: 0;
+  transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.digit-keys {
+  background-color: #fff;
+}
+
+.digit-keys:hover {
+  background-color: #eee;
+}
+
+.operator-keys {
+  background-color: #ccccff;
+  font-weight: 700;
+}
+
+.operator-keys:hover {
+  background-color: #b2b2ec;
+  transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.fun-keys {
+  background-color: #dbdbdb;
+  font-weight: 700;
+}
+
+.fun-keys:hover {
+  background-color: rgb(140, 140, 140);
+}
