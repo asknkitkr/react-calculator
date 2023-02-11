@@ -49,19 +49,25 @@ const Keypad = ({ handleClick, handleClear, handleEqual }) => {
       >
         0
       </button>
-      <button className="fun-keys" onClick={handleEqual}>
-        {" "}
-        ={" "}
-      </button>
       <button className="fun-keys" onClick={handleClear}>
         {" "}
         C{" "}
       </button>
+      <button className="operator-keys" onClick={() => handleClick(".")}>
+        {" "}
+        .{" "}
+      </button>
+
       <button
         className="operator-keys bottom-right-corner"
         onClick={() => handleClick("+")}
       >
         +
+      </button>
+      <br />
+      <button className="fun-keys equal" onClick={() => handleEqual()}>
+        {" "}
+        ={" "}
       </button>
     </div>
   );

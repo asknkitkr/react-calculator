@@ -2,7 +2,7 @@
 .fun-keys,
 .operator-keys {
   width: 87.5px;
-  height: 100px;
+  height: 80px;
   font-size: 24pt;
   border: 0;
   transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -27,10 +27,19 @@
 }
 
 .fun-keys {
-  background-color: #dbdbdb;
+  background-color: #fff;
   font-weight: 700;
 }
 
 .fun-keys:hover {
-  background-color: rgb(140, 140, 140);
+  background-color: rgb(162, 162, 162);
+}
+
+.equal {
+  width: 350px;
+  background-color: rgb(246, 105, 105);
+}
+
+.equal:hover {
+  background-color: rgb(242, 92, 92);
 }
